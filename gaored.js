@@ -14,16 +14,15 @@ class Gaored extends Ranger {
   }
 
   transform() {
-    this.hp += 999899;
+    this.hp += 9999999;
     super.transform();
     this.name = "Gao Red";
     console.log(`I am ${this.name}`);
   }
 
   aftertransform() {
-        console.log(`${this.name} aftertransform into a Rainbow Ranger!. HP is now ${this.hp}`);
-    }
-
+    console.log(`${this.name} แปลงร่างเป็น Gao Red!. HP is now ${this.hp}`);
+  }
 
   callAnimalSpirit() {
     if (this.isTransformed) {
@@ -31,7 +30,7 @@ class Gaored extends Ranger {
         `${this.color} ขอเรียกวิญญาณสรรพสัตว์ มาเล้ย! ${this.animalSpirit}!`,
       );
     } else {
-      console.log(`${this.name} มาเลยไอ้สิงโตเปรต!`);
+      console.log(`${this.name} ไอ้สิงโตตุ้ยดุ้ย ทำไมไม่ฟังเสียงฉัน !!`);
     }
   }
 }

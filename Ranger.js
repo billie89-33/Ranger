@@ -13,7 +13,7 @@ export default class Ranger {
     console.log(`${this.name} transforms! Gao Access!!`);
   }
   rollCall() {
-    this.hp += 500
+    this.hp += 500;
     console.log(`I am the ${this.color} warrior! My buff Hp + ${this.hp} `);
   }
   callAnimalSpirit() {
@@ -32,13 +32,11 @@ export default class Ranger {
     this.hp += 20;
     console.log(`${this.name} eats and restores health. HP is now ${this.hp}`);
   }
-  combat(enemy){ 
-    if (this.combatPower > enemy.combatPower){
-      console.log("Victory")
+  combat(enemy) {
+    if (this.combatPower > enemy.combatPower) {
+      console.log("Victory");
+    } else {
+      console.log("Defeat");
     }
-    else{
-      console.log("Defeat")
-    } 
   }
 }
-
