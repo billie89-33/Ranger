@@ -35,4 +35,7 @@ export default class Ranger {
     } else {
       console.log("Defeat");
     }
+  }
+
+  
 }

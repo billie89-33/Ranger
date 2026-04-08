@@ -12,10 +12,6 @@ export default class Rainbow extends Ranger {
     DivineBeast() {
         console.log(`${this.animalSpirit} is my animalSpirit`)
     }
-    checkmystatus() {
-        this.callAnimalSpirit
-        console.log(`นอน`)
-    }
     checkmyhp() {
         this.hp
         console.log(`${this.name} my hpNow!!${this.hp}`)
@@ -34,6 +30,8 @@ export default class Rainbow extends Ranger {
     makeSound() {
         console.log(`${this.name} say ระวังโดนตุ๊ยดุ๊ยนะค้าบบบ`)
     }
+   
+
 
 }
 
