@@ -12,11 +12,9 @@ export default class Ranger {
     this.isTransformed = true;
     console.log(`${this.name} transforms! Gao Access!!`);
   }
-
   rollCall() {
     console.log(`I am the ${this.color} warrior!`);
   }
-
   callAnimalSpirit() {
     if (this.isTransformed) {
       console.log(`${this.name} calls upon the power of the ${this.animalSpirit}!`);
