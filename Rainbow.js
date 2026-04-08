@@ -28,8 +28,8 @@ export default class Rainbow extends Ranger {
         super.transform();
         this.name = "Rainbow Warrior";
         console.log(`I am ${this.name}`);
-
     }
+    
     aftertransform() {
         console.log(`${this.name} aftertransform into a Rainbow Ranger!. HP is now ${this.hp}`);
     }
