@@ -15,6 +15,7 @@ class Gaored extends Ranger {
 
   transform() {
     this.hp += 9999999;
+    console.log(`${this.hp}`)
     super.transform();
     this.name = "Gao Red";
     console.log(`I am ${this.name}`);

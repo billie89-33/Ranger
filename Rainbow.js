@@ -7,7 +7,7 @@ export default class Rainbow extends Ranger {
     }
 
     human() {
-        console.log(`My Name is ${this.name}. hp now ${this.hp}`)
+        console.log(`My Name is ${this.name}.hp now ${this.hp}`)
     }
     DivineBeast() {
         console.log(`${this.animalSpirit} is my animalSpirit`)
@@ -21,7 +21,7 @@ export default class Rainbow extends Ranger {
         this.hp += 999899;
         super.transform();
         this.name = "Rainbow Warrior";
-        console.log(`I am ${this.name}`);
+        console.log(`I am ${this.name}. I represent the ${this.color}.`);
     }
 
     aftertransform() {

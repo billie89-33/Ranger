@@ -3,7 +3,7 @@ import Rainbow from './Rainbow.js';
 import Gaored from "./gaored.js";
 import  Orange  from './Gaoorange.js';
 import Ranger from "./Ranger.js";
-
+import GaoBlue from "./gaoblue.js";
 
 
 
@@ -42,10 +42,17 @@ vanDarkFong.callAnimalSpirit();
 */
 
 
+/*
+const nancy = new GaoBlue("nancy","Gao blue","wolf");
+
+nancy.human()
+nancy.eat()
+nancy.checkmyhp()
+*/
 
 
-
-const Raven = new Rainbow("inwza007","Rainbow","Fatcat");
+/*
+const Raven = new Rainbow("inwza007","Gao Rainbow","Fatcat");
 
 
 Raven.human()
@@ -57,7 +64,7 @@ Raven.aftertransform()
 Raven.makeSound()
 
 Ranger.teamUp(gaored,Raven)
-
+*/
 
 
 
