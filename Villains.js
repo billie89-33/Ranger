@@ -8,10 +8,11 @@ export default class Villians extends Ranger{
     this.animalSpirit = "Villains has no animal spirits";
     this.hp = 250;
     this.isTransformed = true;
+    this.combatPower = Math.floor(Math.random()*100);
+    }
+    rage(){
+        this.combatPower *=  2;
     }
 
 }
 
-let ogre = new Villians("Gigi","Ogre")
-
-console.log(ogre)

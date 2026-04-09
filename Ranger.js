@@ -9,6 +9,8 @@ export default class Ranger {
   }
   transform() {
     this.isTransformed = true;
+    let scale = Math.random()*10
+    this.combatPower = Math.floor((Math.random()*100)*scale)
     console.log(`${this.name} transforms! Gao Access!!`);
   }
   rollCall() {
@@ -31,11 +33,13 @@ export default class Ranger {
   }
   combat(enemy) {
     if (this.combatPower > enemy.combatPower) {
-      console.log("Victory");
+      console.log(`The battle has begin ${this.name} combat power is ${this.combatPower} and ${enemy.name} combat power is ${enemy.combatPower}`)
+      console.log(`${this.name} is Victory`);
     } else {
-      console.log("Defeat");
+      console.log(`The battle has begin ${this.name} combat power is ${this.combatPower} and ${enemy.name} combat power is ${enemy.combatPower}`)
+      console.log(`${this.name} is Defeated by ${enemy.name}`);
     }
   }
 
-  
+
 }
